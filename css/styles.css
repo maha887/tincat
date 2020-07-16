@@ -1,0 +1,117 @@
+/********** tag selctor ***********/
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black', sans-serif ;
+}
+
+
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/********** class selctor ***********/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9rem;
+}
+
+.cat-foot{
+    margin: 0;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+.container-fuld{
+    padding: 7% 15%;
+}
+
+.big-heading{
+    margin-top: 100px;
+    font-family: 'Montserrat-Black', sans-serif ;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.button{
+    margin: 20px 15px 0 0;
+}
+
+.iphone{
+    width: 75%;
+    margin-top: 50px;
+}
+
+.features{
+    padding: 5%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+}
+
+.cat{
+    height:251px ;
+    width: 201px;
+}
+
+.pricing{
+    padding: 3% 2%;
+}
+
+
+.fotter{
+    color: gray;
+}
+
+.soical-icon{
+    margin: 20px 10px;
+}
+
+.colored-section{
+    color: white;
+}
+
+/********** id selctor ***********/
+#title{
+    background-color: #ff847c;
+    text-align: left;
+}
+
+#title .container-fuld{
+    padding: 3% 15%;
+}
+
+#pricing{
+    background-color: white;
+}
+
+#features{
+    padding: 7% 13% 5% 15%;
+    background-color: #ff847c;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+}
